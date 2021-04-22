@@ -1,0 +1,20 @@
+@keyframes shake-err-message {
+  0% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.auth__error {
+  font-size: 16px;
+  color: #ff0000;
+  margin-bottom: 10px;
+  display: none;
+  animation: shake-err-message 0.1s both 2;
+  max-width: 250px;
+}

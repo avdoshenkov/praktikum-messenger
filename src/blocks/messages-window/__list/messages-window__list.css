@@ -1,0 +1,8 @@
+.messages-window__list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: 40px;
+  overflow-y: scroll;
+}

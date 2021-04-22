@@ -1,0 +1,7 @@
+.aside-panel__search-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
