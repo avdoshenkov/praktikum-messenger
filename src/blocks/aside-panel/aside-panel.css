@@ -1,0 +1,16 @@
+@import url("./__card-list/aside-panel__card-list.css");
+@import url("./__search-form/aside-panel__search-form.css");
+@import url("./__search-icon/aside-panel__search-icon.css");
+@import url("./__search-input/aside-panel__search-input.css");
+@import url("./__add/aside-panel__add.css");
+
+.aside-panel {
+  font-family: "Balsamiq Sans", Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  max-width: 400px;
+  width: 100%;
+  background-color: #1c1d21;
+  overflow: hidden;
+}
